@@ -1,6 +1,36 @@
-public class Main { //類別名稱 要 跟 程式檔案主檔名 一樣（大小寫也要一樣）
-    public static void main(String[] args){   // 類別定義裡建立主要方法  //注意 String 首字大寫否則無法執行
-        System.out.println("Hello and welcome!");
-        System.out.println ("Yang Yu Hsiang's First Java Project");
+Get Familiar with Java. 2024, June
+YANG YU HSIANG
+
+Entry-level Project
+Guessing Number
+
+// yangyuhsiang 楊宇翔
+// Guess Number 猜數字
+import java.util.Random;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Random random=new Random();
+        int answer =random.nextInt(100)+1;
+        //System.out.println(answer);
+
+        Scanner scanner = new Scanner(System.in);
+        while(true){ //可以無限做猜測
+            System.out.print("Please input number between 1 and 100 : ");
+            int guess=scanner.nextInt();
+
+            if(guess<answer){
+                System.out.println("Please guess bigger"); //println 會換行 //print 不會換行
+            }
+            else if(guess>answer){
+                System.out.println("Please guess smaller");
+            }
+            else if(guess==answer){
+                System.out.println("Bingo!");
+                break;
+            }
+        }
+
     }
 }
