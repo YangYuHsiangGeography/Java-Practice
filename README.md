@@ -36,3 +36,8 @@ public class Main {
 
     }
 }
+
+
+Learning Materials: Youtube, 【Java】3小時初學者Java教學 #Java #Java教學 #Java入門 | 全面了解 Java – 從真實世界案例學習Java, GrandmaCan -我阿嬤都會 , 2024年4月2日
+link:https://www.youtube.com/watch?v=nQ1Z3NxpfIw
+
