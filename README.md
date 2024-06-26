@@ -6,6 +6,8 @@ Guessing Number
 
 // yangyuhsiang 楊宇翔
 // Guess Number 猜數字
+
+
 import java.util.Random;
 import java.util.Scanner;
 public class Main {
